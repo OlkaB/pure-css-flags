@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(rgb(138,134,138) 0%, rgb(26,26,26) 100%);
+}
+
+.flag {
+  margin: auto;
+  margin-top: 30px;
+  width: 350px;
+  height: 200px;
+  border: 1px solid #e8eaed;
+  box-shadow: 4px 4px 6px black;
+}
+
+#czech {
+  background: linear-gradient(to bottom, rgb(255,255,255) 0%, rgb(255,255,255) 50%, rgb(215,20,27) 50%, rgb(215,20,27) 100%);
+}
+
+.triangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 100px 0 100px 175px;
+border-color: transparent transparent transparent #011457;
+}
+
+#micronesia{
+  background-color: #75B2DD;
+}
+
+.stars:after{
+	content: "\2605";
+	font-size: 50px;
+	color: white;
+	display: block;
+	position: relative;
+	margin-left: 45%;
+	text-shadow: 70px 65px 0 white,  -70px 65px 0 white, 0 130px 0 white;
+}
+
+#japan {
+  background-color: white;
+}
+
+.circle {
+  background-color: #C70025;
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 70px;
+}
